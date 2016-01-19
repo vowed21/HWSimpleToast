@@ -32,6 +32,18 @@ HWSimpleToast(message: "Your Message").setBackgroundColor(UIColor.redColor()).se
 ## Settings are preserved.
 Set configuration once and just call show() method each time.
 
+
+#### CocoaPods
+```
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+pod 'HWSimpleToast'
+```
+
+
+
 ## License
 
 `HWViewPager` is available under the MIT license. See the LICENSE file for more info.
