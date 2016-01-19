@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BGt-FH-hbJ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="0dv-d3-h25">
+            <objects>
+                <viewController id="BGt-FH-hbJ" customClass="ViewController" customModule="HWToast" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="33Y-aV-uyf"/>
+                        <viewControllerLayoutGuide type="bottom" id="r4y-q2-QRm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fL5-cO-szC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Tq-Aq-Cxa">
+                                <rect key="frame" x="22" y="159" width="85" height="30"/>
+                                <state key="normal" title="Position Top"/>
+                                <connections>
+                                    <action selector="clickPositionTop:" destination="BGt-FH-hbJ" eventType="touchUpInside" id="ZQY-iQ-Uv6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpJ-3Q-LYs">
+                                <rect key="frame" x="22" y="83" width="105" height="30"/>
+                                <state key="normal" title="Position Center"/>
+                                <connections>
+                                    <action selector="clickPositionCenter:" destination="BGt-FH-hbJ" eventType="touchUpInside" id="cG1-pF-15p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QiD-X1-Jrt">
+                                <rect key="frame" x="20" y="121" width="109" height="30"/>
+                                <state key="normal" title="Position Bottom"/>
+                                <connections>
+                                    <action selector="clickPositionBottom:" destination="BGt-FH-hbJ" eventType="touchUpInside" id="wFi-Vd-a89"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVx-ey-0aR">
+                                <rect key="frame" x="22" y="45" width="210" height="30"/>
+                                <state key="normal" title="Simple Show With Last Setting"/>
+                                <connections>
+                                    <action selector="clickSimpleShow:" destination="BGt-FH-hbJ" eventType="touchUpInside" id="LYI-Ci-Bkw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oo6-bJ-ged">
+                                <rect key="frame" x="20" y="197" width="105" height="30"/>
+                                <state key="normal" title="Long Duration"/>
+                                <connections>
+                                    <action selector="clickLongDuration:" destination="BGt-FH-hbJ" eventType="touchUpInside" id="cBO-Fb-Vh5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDI-ZA-eXo">
+                                <rect key="frame" x="20" y="235" width="113" height="30"/>
+                                <color key="tintColor" red="0.8627451062" green="0.082352943720000002" blue="0.1215686277" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Background Red"/>
+                                <connections>
+                                    <action selector="clickRed:" destination="BGt-FH-hbJ" eventType="touchUpInside" id="oa9-q0-CQ1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="je7-Sd-nDJ">
+                                <rect key="frame" x="20" y="273" width="210" height="30"/>
+                                <state key="normal" title="Background Light &amp; Black Text"/>
+                                <connections>
+                                    <action selector="clickLightGray:" destination="BGt-FH-hbJ" eventType="touchUpInside" id="Nwx-G0-byR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fZY-cK-ZpI" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="218.5" y="1115.5"/>
+        </scene>
+    </scenes>
+</document>
